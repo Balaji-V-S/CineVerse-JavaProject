@@ -1,4 +1,9 @@
 package com.cineverse.dao;
 
-public class ReviewDaoImpl {
+import com.cineverse.entity.Review;
+import jakarta.persistence.EntityManager;
+
+public class ReviewDaoImpl implements ReviewDao {
+    @Override
+    public void save(Review review, EntityManager em) { em.persist(review); }
 }
