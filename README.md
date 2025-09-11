@@ -52,27 +52,27 @@ with distinct roles for **Customers** and **Administrators**.
 ## Architecture
 
 The project follows a **classic three-layered architecture** ensuring modularity, scalability, and maintainability.
-
+```code
 +-----------------------------------+
-| Presentation Layer |
-| (CineVerseConsoleApp.java) |
-| Handles User Input & Output |
+|      Presentation Layer           |
+|    (CineVerseConsoleApp.java)     |
+|    Handles User Input & Output    |
 +-----------------------------------+
-|
-v
+                |
+                v
 +-----------------------------------+
-| Service Layer |
-| (UserService, MovieService, etc.)|
-| Business Logic & Transactions |
+|         Service Layer             |
+| (UserService, MovieService, etc.) |
+|   Business Logic & Transactions   |
 +-----------------------------------+
-|
-v
+                |
+                v
 +-----------------------------------+
-| Data Access Layer |
-| DAO Interfaces & Impl Classes |
-| Database Interactions via JPA |
+|       Data Access Layer           |
+|   DAO Interfaces & Impl Classes   |
+|   Database Interactions via JPA   |
 +-----------------------------------+
-
+```
 ---
 
 # Technology Stack
@@ -102,3 +102,4 @@ Make sure you have installed:
    ```
 
 Distributed under the MIT License. See LICENSE for details.
+
