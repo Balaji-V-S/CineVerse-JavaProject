@@ -1,3 +1,6 @@
+<a href="https://balajivs.me"><img src="https://github.com/Balaji-V-S/Balaji-V-S/blob/main/Github%20Readme%20watermark.png" align="right" width="140" /></a>
+
+
 # CineVerse: Core Java Movie Booking System
 
 A **command-line based movie booking and review system** built with **Core Java, JPA, and Hibernate**, designed to showcase a robust **three-layered architecture** without the use of frameworks like Spring.
@@ -102,4 +105,5 @@ Make sure you have installed:
    ```
 
 Distributed under the MIT License. See LICENSE for details.
+
 
